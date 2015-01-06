@@ -1,0 +1,9 @@
+/* Essential FileDrop zone element configuration: */
+.dropzone {
+	position: relative;
+	overflow: hidden;
+	/* The following are not required but create a pretty box: */
+	width: 15em;
+	margin: 0 auto;
+	text-align: center;
+}
