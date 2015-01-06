@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>File(s) size</title>
-		<style type="text/css" src="dropboxStyle.css"></style>
+		<link rel="stylesheet" href="dropboxStyle.css">
 	</head>
 
 	<body>
@@ -74,7 +74,8 @@
 			}
 
 		</script>
-		<div class="dropzone" id="dropbox"> Drop files here </div>
+
+		<div class="fb-dropzone" id="dropbox"> Drop files here </div>
 
 		<form name="uploadForm">
 		<p><input id="uploadInput" type="file" name="myFiles" onchange="updateChoiceSize();" multiple> selected files: <span id="fileNum">0</span>; total size: <span id="fileSize">0</span></p>
